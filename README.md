@@ -68,6 +68,9 @@ Shared/
 - Swagger habilitado en Development; URLs típicas: `https://localhost:7169/swagger`, JSON en `.../swagger/v1/swagger.json`.
 - Endpoints en minúsculas con guiones.
 
+### Conexion de a la base de datos
+- al finlizar el code solicita la informacion para crear la base de dtos automaticamnte al ejecutar el backend si es que no existe,debes solicitar user y password
+  
 ### Autoría y documentación
 - XML docs en inglés, `<remarks>Pietro Osores.</remarks>` en clases/métodos relevantes.
 - Comentarios concisos solo cuando agregan claridad.
